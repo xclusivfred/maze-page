@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Monospace;
+}
+
+/* nav */
+.container.pad {
+  padding: 80px 0;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background: #fff;
+  padding: 0;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.navbar-brand h1 {
+  font-weight: 800;
+  color: #666;
+}
+
+.navbar-nav li {
+  padding: 0 30px;
+}
+.nav-link {
+  color: black !important;
+}
+
+.signup {
+  border: none;
+  background: #666;
+}
+.navi-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.login {
+  border-color: #666;
+  margin-right: 8px;
+  color: #000;
+}
+
+
+/*.navbar-nav li a {
+  color: #fff;
+  font-weight: 600;
+}*/
+
+/*banner section*/
+#banner {
+  padding-top: 3%;
+  background: #f7f5ff;
+}
+
+
+.banner-headline {
+  margin-top: 10%;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+.banner-subheadline {
+  margin-top: 10%;
+  font-size: 1.5rem;
+}
+.btn-explore {
+  margin-right: 10px !important;
+  color: #000;
+}
+.btn-banner {
+  margin: 8% 0 20%;
+}
+.btn-banner.get-started {
+  background: #666;
+  color: #fff;
+}
+
+/* catch-phrase section*/
+.catch-phrase {
+  margin: 6% 0;
+}
+span {
+  color: #3f00ff;
+}
+.catch-phrase-text {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+/* secon banner*/
+.second-banner-headline {
+  margin-top: 10%;
+  font-weight: 600;
+  font-size: 2.3rem;
+}
+.second-banner-subheadline {
+  margin-top: 10%;
+  font-size: 1.5rem;
+}
+
+/*footer*/
+#footer {
+  background: #666;
+  color: #fff;
+  height: 100%;
+  padding: 4% 0;
+}
+
+.foot-maze {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 6rem;
+}
+
+.date {
+  text-align: center;
+}
+
+@media screen and (max-width: 680px) {
+  .navbar-brand img {
+    width: 50%;
+  }
+}
